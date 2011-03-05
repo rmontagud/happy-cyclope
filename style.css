@@ -12,7 +12,7 @@ Tags:two columns,fixed width,easy customization, widget ready, valid CSS, valid 
 
 * {margin:0;padding:0;font-family: Trebuchet, Helvetica, Verdana, Arial, sans-serif;}
 body {background:#eee;padding:0 0 0 30px;}
-div#wrapper {position:relative;float:left;width:926px;margin:0 auto 0 auto;background:#fff;}
+div#wrapper {position:relative;width:926px;margin:0 auto;background:#fff;}
 div#container {position:relative;margin:3px 0 0 3px;width:900px;}
 
 /* HEADER */
