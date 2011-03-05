@@ -9,9 +9,9 @@
 		<?php if (have_posts()) : ?>
 		<?php while (have_posts()) : the_post(); ?>
 			<div class="post" id="post-<?php the_ID(); ?>">
-				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-				<div class="metadata"><?php the_time('F jS, Y') ?> by <?php the_author() ?> in <?php the_category(', ') ?></div>
-				<div class="postcontent"><?php the_content('Read the rest of this entry &raquo;'); ?></div>
+				<h2><a href="<?php the_permalink() ?>" class="instapaper_title" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+				<div class="metadata"><?php the_time('F jS, Y') ?> by <?php the_author() ?> in <?php the_category(', '); echo " "; the_tags() ?></div>
+				<div class="postcontent instapaper_body"><?php the_content('Read the rest of this entry &raquo;'); ?></div>
 			</div>
 		<?php endwhile; ?>
 			<div class="navigation">
