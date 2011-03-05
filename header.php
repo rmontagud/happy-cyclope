@@ -26,7 +26,9 @@
 		<div id="imageheader">
 			<div id="imglogo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" alt="logo header" /></a></div>
 			<div id="imgbg">
+            <!--
 				<div id="rss"><a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/rss.png" alt="rss" /></a> Subscribe to the <a href="<?php bloginfo('rss2_url'); ?>">feed</a></div>
+            -->
 				<div id="search"><?php include (TEMPLATEPATH . "/searchform.php"); ?></div>
 			</div>
 		</div>
