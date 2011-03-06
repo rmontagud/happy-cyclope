@@ -4,11 +4,19 @@
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<meta name="generator" content="WordPress" /> <!-- leave this for stats -->
 	<title>
-		<?php if (is_home () ) { bloginfo('name'); }
-		elseif ( is_category() ) { single_cat_title(); echo ' - ' ; bloginfo('name'); }
-		elseif (is_single() ) { single_post_title();}
-		elseif (is_page() ) { single_post_title();}
-		else { wp_title('',true); } ?>
+		<?php 
+        if (is_home () ) { 
+            bloginfo('name'); 
+        } elseif ( is_category() ) { 
+            single_cat_title(); echo ' - ' ; bloginfo('name'); 
+        } elseif (is_single() ) { 
+            single_post_title();
+        } elseif (is_page() ) { 
+            single_post_title();
+        } else { 
+            wp_title('',true); 
+        } 
+        ?>
 	</title>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
