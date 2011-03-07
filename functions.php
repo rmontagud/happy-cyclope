@@ -9,6 +9,6 @@ if ( function_exists('register_sidebar') ):
 		'after_title' => '</h2>',
 	));
 endif;
-    
+
 add_theme_support('post-formats', array('link', 'gallery'));
 ?>

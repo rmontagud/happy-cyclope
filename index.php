@@ -4,9 +4,9 @@
 
 		<div id="posts">
 		<?php if (have_posts()) : ?>
-		<?php 
-            while (have_posts()) : 
-            the_post(); 
+		<?php
+            while (have_posts()) :
+            the_post();
                 if (has_post_format('link')):
                     // See http://codex.wordpress.org/Function_Reference/the_content
                     // You must apply the filers manually, someone at wordpress needs to stop this and make it consistent
@@ -25,7 +25,7 @@
                             <div class="commentlink"><?php comments_popup_link('No Comments, add yours', '1 Comment, add yours', '% Comments, add yours'); ?></div>
                         </div>
                     </div>
-                <?php 
+                <?php
 
                 else:
                     ?>
@@ -35,9 +35,9 @@
                         <div class="postcontent"><?php echo the_content('Read the rest of this entry &raquo;'); ?></div>
                         <div class="commentlink"><?php comments_popup_link('No Comments, add yours', '1 Comment, add yours', '% Comments, add yours'); ?></div>
                     </div>
-                <?php 
+                <?php
                 endif;
-            endwhile; 
+            endwhile;
         ?>
 			<div class="navigation">
 				<div class="alignleft"><?php next_posts_link('&laquo; Older Entries') ?></div>
