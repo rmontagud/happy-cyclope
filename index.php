@@ -21,7 +21,7 @@
                         <h2><img src="<?php bloginfo('template_directory'); ?>/images/link.png" width="32" height="32" alt="Link" /> <?php echo $linkme[0] ?></h2>
                         <div class="postcontent" style="padding-left: 10px;"><?php echo $content; ?></div>
                         <div style="clear: both;">
-                            <div style="float: left;" class="metadata"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_time('F jS, Y') ?></a> by <?php the_author() ?> in <?php the_category(', ') ?> <?php the_tags() ?></div>
+                            <div class="alignleft metadata"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_time('F jS, Y') ?></a> by <?php the_author() ?> in <?php the_category(', ') ?> <?php the_tags() ?></div>
                             <div class="commentlink"><?php comments_popup_link('No Comments, add yours', '1 Comment, add yours', '% Comments, add yours'); ?></div>
                         </div>
                     </div>
