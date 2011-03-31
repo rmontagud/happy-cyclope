@@ -1,7 +1,7 @@
-/*  
+/*
 Theme Name: Happy Cyclope
 Theme URI: http://designer-daily.com
-Description: 2 columns, left sidebar, Widget ready, valid CSS & XHTML transitionnal 
+Description: 2 columns, left sidebar, Widget ready, valid CSS & XHTML transitionnal
 Version: 1.0
 Author: Designer daily
 Author URI: http://designer-daily.com
@@ -131,5 +131,18 @@ h3 #searchresults {color:#FF000A;}
 #footer a:hover {text-decoration:underline;}
 
 /* IMAGES */
-img.centered {display: block;margin-left: auto;margin-right: auto;}img.alignright {padding: 4px;margin: 0 0 2px 7px;display: inline;}img.alignleft {padding: 4px;margin: 0 7px 2px 0;display: inline;}.alignright {float: right;}.alignleft {float: left;}
+img.centered {display: block;margin-left: auto;margin-right: auto;}
+img.alignright {padding: 4px;margin: 0 0 2px 7px;display: inline;}
+img.alignleft {padding: 4px;margin: 0 7px 2px 0;display: inline;}
+.alignright {float: right;}
+.alignleft {float: left;}
 .aligncenter { margin: 0 auto; }
+/* Tweets widget from JetPack */
+ul.tweets li a {
+    display: inline !important;
+    padding: 0 !important;
+}
+ul.tweets li a.timesince {
+    display: block !important;
+    padding: 15px 5px 8px !important;
+}
