@@ -64,26 +64,25 @@ input#searchsubmit {background:transparent;border:none;color:#ddd;font-size:0.8e
 
 /* CONTENT */
 
-
-#content #posts {position:relative;float:right;width:650px;padding:30px 0 0 20px;}
-#content #posts h2 {margin:0 0 5px 0;}
-#content #posts h2 a {font-size:1.1em;font-weight:normal;color:#000;text-decoration:none;}
-#content #posts .post {position:relative;float:left;margin:0 0 70px 0;}
-#content #posts .post .metadata {font-size:0.75em;color:#555;margin:0 0 20px 0;}
-#content #posts .post .metadata a {color:#000;text-decoration:none;}
-#content #posts .post .metadata a:hover {text-decoration:underline;}
-#content #posts .post .postcontent {line-height:1.3em;color:#333;font-size:0.95em;}
-#content #posts .post .postcontent p {margin:10px 0;}
-#content #posts .post .postcontent ul {padding:10px 0 10px 40px;}
-#content #posts .post .postcontent ol {padding:10px 0 10px 40px;list-style-type:decimal;}
-#content #posts .post .postcontent ol li {list-style-type:decimal;}
-#content #posts .post .postcontent img {border:1px solid #888;}
-#content #posts .post .postcontent blockquote {background:#eee;border:1px dotted #ccc;padding:15px;font-style:italic;}
-#content #posts .post a {color:#0C283F;}
-#content #posts .post a:hover {text-decoration:none;color:#224D6F;}
-#content #posts .post .commentlink {position:relative;float:right;margin:10px 0 20px 0;}
-#content #posts .post .commentlink a {padding:8px;border:1px solid #999;background:#eee;text-decoration:none;color:#333;}
-#content #posts .post .commentlink a:hover {color:#000;border:1px solid #000;background:#ddd;}
+#posts {position:relative;float:right;width:650px;padding:30px 0 0 20px;}
+#posts h2 {margin:0 0 5px 0;}
+#posts h2 a {font-size:1.1em;font-weight:normal;color:#000;text-decoration:none;}
+#posts .post {position:relative;float:left;margin:0 0 70px 0;}
+#posts .post .metadata {font-size:0.75em;color:#555;margin:0 0 20px 0;}
+#posts .post .metadata a {color:#000;text-decoration:none;}
+#posts .post .metadata a:hover {text-decoration:underline;}
+#posts .post .postcontent {line-height:1.3em;color:#333;font-size:0.95em;}
+#posts .post .postcontent p {margin:10px 0;}
+#posts .post .postcontent ul {padding:10px 0 10px 40px;}
+#posts .post .postcontent ol {padding:10px 0 10px 40px;list-style-type:decimal;}
+#posts .post .postcontent ol li {list-style-type:decimal;}
+#posts .post .postcontent img {border:1px solid #888;}
+#posts .post .postcontent blockquote {background:#eee;border:1px dotted #ccc;padding:15px;font-style:italic;}
+#posts .post a {color:#0C283F;}
+#posts .post a:hover {text-decoration:none;color:#224D6F;}
+#posts .post .commentlink {position:relative;float:right;margin:10px 0 20px 0;}
+#posts .post .commentlink a {padding:8px;border:1px solid #999;background:#eee;text-decoration:none;color:#333;}
+#posts .post .commentlink a:hover {color:#000;border:1px solid #000;background:#ddd;}
 #content .navigation { clear: both; }
 #content .navigation .alignleft {float:left;}
 #content .navigation .alignright {float:right;}
@@ -103,29 +102,29 @@ h3 #searchresults {color:#FF000A;}
 
 /* COMMENTS */
 
-#comments  {position:relative;float:left;width:650px;}
+#comments {position:relative;float:left;width:650px;}
 #comments h2 {position:relative;float:left;font-size:1.2em;font-weight:normal;padding:10px;margin:10px 0 0 0;}
 #comments p {margin:0 10px 10px 10px;clear:both;}
-#comments ul#commentlist {position:relative;float:left;width:650px;list-style-type:none;}
-#comments ul#commentlist li {position:relative;float:left;padding:20px 10px 25px 10px;width:630px;border-bottom:1px dotted #555;list-style-type:none;margin:0;}
-#comments ul#commentlist li.graybox {background:#eee;}
-#comments ul#commentlist li .commentheader {position:relative;float:left;width:200px;}
-#comments ul#commentlist li .commentheader cite {position:relative;float:left;width:200px;padding:5px 0 8px 0;font-style:normal;font-weight:bold;clear:both;}
-#comments ul#commentlist li .commentheader cite a {color:#333;text-decoration:none;}
-#comments ul#commentlist li .commentheader cite a:hover {text-decoration:underline;color:#000;}
-#comments ul#commentlist li .commentheader .commentnumber {position:relative;float:left;width:200px;font-size:0.8em;}
-#comments ul#commentlist li .commentheader .commentnumber a {color:#333;text-decoration:none;}
-#comments ul#commentlist li .commentheader .commentnumber a:hover {color:#000;text-decoration:underline;}
-#comments ul#commentlist li .commentheader small {color:#888;font-size:0.8em;}
-#comments ul#commentlist li .commenttext {position:relative;float:right;width:400px;font-size:0.9em;color:#555;line-height:1.2em;padding:8px 0 0 0;}
-#comments ul#commentlist li .commenttext a {color:#000;}
-#comments ul#commentlist li .commenttext a:hover {text-decoration:none;}
-#comments form#commentform {position:relative;float:left;padding:10px;background:#eee;border:1px solid #ddd;width:630px;}
-#comments form#commentform p {padding:5px 0;}
-#comments form#commentform input {border:1px solid #ddd;margin:0 10px 0 0;}
-#comments form#commentform label {font-size:0.9em;}
-#comments form#commentform textarea {width:600px;border:1px solid #ddd;}
-#comments form#commentform input#submit {float:right;margin:5px 25px;padding:8px 5px 5px;background:#555;color:#fff;}
+ul#commentlist {position:relative;float:left;width:650px;list-style-type:none;}
+ul#commentlist li {position:relative;float:left;padding:20px 10px 25px 10px;width:630px;border-bottom:1px dotted #555;list-style-type:none;margin:0;}
+ul#commentlist li.graybox {background:#eee;}
+ul#commentlist li .commentheader {position:relative;float:left;width:200px;}
+ul#commentlist li .commentheader cite {position:relative;float:left;width:200px;padding:5px 0 8px 0;font-style:normal;font-weight:bold;clear:both;}
+ul#commentlist li .commentheader cite a {color:#333;text-decoration:none;}
+ul#commentlist li .commentheader cite a:hover {text-decoration:underline;color:#000;}
+ul#commentlist li .commentheader .commentnumber {position:relative;float:left;width:200px;font-size:0.8em;}
+ul#commentlist li .commentheader .commentnumber a {color:#333;text-decoration:none;}
+ul#commentlist li .commentheader .commentnumber a:hover {color:#000;text-decoration:underline;}
+ul#commentlist li .commentheader small {color:#888;font-size:0.8em;}
+ul#commentlist li .commenttext {position:relative;float:right;width:400px;font-size:0.9em;color:#555;line-height:1.2em;padding:8px 0 0 0;}
+ul#commentlist li .commenttext a {color:#000;}
+ul#commentlist li .commenttext a:hover {text-decoration:none;}
+form#commentform {position:relative;float:left;padding:10px;background:#eee;border:1px solid #ddd;width:630px;}
+form#commentform p {padding:5px 0;}
+form#commentform input {border:1px solid #ddd;margin:0 10px 0 0;}
+form#commentform label {font-size:0.9em;}
+form#commentform textarea {width:600px;border:1px solid #ddd;}
+form#commentform input#submit {float:right;margin:5px 25px;padding:8px 5px 5px;background:#555;color:#fff;}
 
 /* FOOTER */
 
