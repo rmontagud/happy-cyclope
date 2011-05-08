@@ -9,5 +9,5 @@ if (function_exists('register_sidebar')):
     ));
 endif;
 
-add_theme_support('post-formats', array('link', 'gallery'));
+add_theme_support('post-formats', array('link'));
 ?>
