@@ -83,7 +83,7 @@ input#searchsubmit {background:transparent;border:none;color:#ddd;font-size:0.8e
 #posts .post .commentlink {position:relative;float:right;margin:10px 0 20px 0;}
 #posts .post .commentlink a {padding:8px;border:1px solid #999;background:#eee;text-decoration:none;color:#333;}
 #posts .post .commentlink a:hover {color:#000;border:1px solid #000;background:#ddd;}
-#content .navigation { clear: both; }
+#content .navigation { clear: both; margin-top: 10px; }
 #content .navigation .alignleft {float:left;}
 #content .navigation .alignright {float:right;}
 #content .navigation .alignleft a, #content .navigation .alignright a {text-decoration:none;color:#000;padding:8px;border:1px solid #ddd;background:#eee;}
